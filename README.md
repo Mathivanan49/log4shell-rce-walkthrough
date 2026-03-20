@@ -141,6 +141,8 @@ Then now try to exploit the same vulnerability now we can't do that
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20133508.png)
 
+We didn't got any reverse connection from the target
+
 
 
 

@@ -31,6 +31,8 @@ The solr.log is the file that has significan info downloaded from the task file
 
 The URL endpoint is indicated in these repeated entries are
 
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/e38c9683d7c0da229d269b74b8fef98332c3f9e9/Screenshot%202026-03-20%20114610.png)
+
 
 
 

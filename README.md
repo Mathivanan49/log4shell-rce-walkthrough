@@ -23,6 +23,8 @@ Visit http://MACHINE_IP:8983 and see the front page to find out log4j used
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/1857219ebc47ef2a4bcf0ec4e996463dec8bbf8c/Screenshot%202026-03-20%20112830.png)
 
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/914646309bf26f8f955b7692102a12c0b21ee6d8/Screenshot%202026-03-20%20112840.png)
+
 
 
 

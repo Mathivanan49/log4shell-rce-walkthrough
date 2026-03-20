@@ -35,6 +35,11 @@ The URL endpoint is indicated in these repeated entries are
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/5ed586ba5d6ad46ae8447b72de51b4a46f3f4ae8/Screenshot%202026-03-20%20114630.png)
 
+By seeing those entries the user can modify this field below
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/c1e6c254c608abf6f30e9be65c81342aca066e38/Screenshot%202026-03-20%20114723.png)
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/c1e6c254c608abf6f30e9be65c81342aca066e38/Screenshot%202026-03-20%20114747.png)
 
 
 

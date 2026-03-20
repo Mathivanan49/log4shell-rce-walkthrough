@@ -1,6 +1,6 @@
 # log4shell-rce-walkthrough
 ## What is Log4Shell?
-Log4Shell is a critical vulnerability in Log4j that allows remote code execution.
+Log4Shell is a critical vulnerability in Log4j java library used for storing logs that allows remote code execution.
 
 Task 1:
 
@@ -111,7 +111,17 @@ Let's set the persistence in the target by changing the password od the solr use
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/114c4d74c16904a16911c8b5f746c980bccf19f1/Screenshot%202026-03-20%20131335.png)
 
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/be5873d0d8df894394db7ee17a3a9959da1396d6/Screenshot%202026-03-20%20152454.png)
+
+Task 7:
+
+Now let's see access the target through the ssh and see the log file of the solr that had logged our reverse connection
+
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20132654.png)
+
+Task 9:
+
+In this task lets patch the solr with the line SOLR_OPTS="$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true" in the solr.in.sh by using any text editors like nano,vim etc...
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20132559.png)
 
@@ -121,7 +131,11 @@ Let's set the persistence in the target by changing the password od the solr use
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20133134.png)
 
+Now restart the solr to apply the patch using this command /etc/init.d/solr restart
+
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20133302.png)
+
+Then now try to exploit the same vulnerability now we can't do that
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20133445.png)
 

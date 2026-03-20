@@ -105,6 +105,28 @@ Then go to the netcat listener tab you can see the connection received from the 
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/3e91d224c5c5ef5f8cdfcad61fb76ebf1a46d980/Screenshot%202026-03-20%20131244.png)
 
+Task 6:
+
+Let's set the persistence in the target by changing the password od the solr user to get remote ssh service
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/114c4d74c16904a16911c8b5f746c980bccf19f1/Screenshot%202026-03-20%20131335.png)
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20132654.png)
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20132559.png)
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20132948.png)
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20132959.png)
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20133134.png)
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20133302.png)
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20133445.png)
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/fc840e4dfa8c7e22ff675d2faa0c29f3f265dc24/Screenshot%202026-03-20%20133508.png)
+
 
 
 

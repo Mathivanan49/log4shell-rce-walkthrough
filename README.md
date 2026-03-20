@@ -17,6 +17,10 @@ From the result the answer will be apache solr
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/c3bd27ce9fb33d11b10b93311ccb2dadc656ab97/Screenshot%202026-03-20%20140826.png)
 
+Task 3:
+
+Visit http://MACHINE_IP:8983 and see the front page to find out log4j used
+
 
 
 

